@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: blueviolet;
+}
+.section {
+    perspective: 800px;
+}
+.container {
+    height: 100vh;
+    width: 680px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 1s;
+    transform: rotateX(30deg);
+    transform-style: preserve-3d;
+    /* transform: rotateZ(-45deg); */
+    /* transform: rotateY(10deg); */
+}
+
+.container-org {
+    /* margin: 0; */
+    transform: rotate(0);
+    /* background-color: bisque; */
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+.card {
+    width: 200px;
+    margin: 10px;
+}
+
+.card:hover {
+    transition: 500ms;
+    cursor: pointer;
+    transform: translateZ(20px);
+}
+
+.card-org{
+   width: 100%;
+   margin: 10px;
+   transition: 500ms;
+}

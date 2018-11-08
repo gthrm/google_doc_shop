@@ -1,0 +1,10 @@
+#top{
+    /* display:block; */
+    /* margin-left:auto; */
+    /* margin-right:auto */
+    background-color: green;
+    color: rgb(255, 255, 255);
+    font-size: 36pt;
+    }
+img.imgG {height: 140px;}
+p.show {font-size: 10pt; color: blueviolet;}
